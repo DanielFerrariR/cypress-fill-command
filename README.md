@@ -11,8 +11,8 @@ This package adds a custom [Cypress][cypress] command that fills inputs and text
 - [Installation](#installation)
 - [Usage](#usage)
 - [API](#api)
-- [Contributors](#contributors)
 - [It isn't working](#it-isnt-working)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## Installation
