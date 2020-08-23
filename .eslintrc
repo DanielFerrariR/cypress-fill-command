@@ -1,0 +1,38 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {}
+  },
+  "plugins": ["cypress"],
+  "env": {
+    "cypress/globals": true
+  },
+  "extends": ["airbnb-base", "plugin:cypress/recommended", "prettier"],
+  "rules": {},
+  "settings": {},
+  "overrides": [
+    {
+      "files": "**/*.+(md|mdx)",
+      "extends": ["plugin:mdx/recommended"]
+    },
+    {
+      "files": "**/*.+(ts|tsx)",
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": "./spec/cypress/tsconfig.json",
+        "ecmaFeatures": {}
+      },
+      "plugins": ["cypress", "@typescript-eslint", "eslint-plugin-tsdoc"],
+      "extends": [
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:cypress/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+      ],
+      "rules": {}
+    }
+  ]
+}
