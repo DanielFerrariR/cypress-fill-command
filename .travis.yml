@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+    - ~/.yarn
+notifications:
+  email: false
+node_js: '12'
+install: yarn install
+script: yarn run validate
+branches:
+  only: master

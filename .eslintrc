@@ -20,7 +20,7 @@
       "files": "**/*.+(ts|tsx)",
       "parser": "@typescript-eslint/parser",
       "parserOptions": {
-        "project": "./spec/cypress/tsconfig.json",
+        "project": "./tsconfig.json",
         "ecmaFeatures": {}
       },
       "plugins": ["cypress", "@typescript-eslint", "eslint-plugin-tsdoc"],

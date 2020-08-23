@@ -31,15 +31,13 @@ Add this line to your project's `cypress/support/commands.js`:
 import 'cypress-fill-command'
 ```
 
-Now you are ready to use the command. Here are some basic examples:
+Now you are ready to use the command. Here is a basic example:
 
 ```javascript
 cy.get('#the-element-id').fill(/Button Name/)
 ```
 
 **Trying to upload a file that does not supported by Cypress by default?** Make sure you pass `encoding` property (see [API](#api)).
-
-See more usage guidelines in [recipes](./recipes).
 
 ## API
 
@@ -61,3 +59,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 [cypress]: https://cypress.io
 [mit]: https://opensource.org/licenses/MIT
+[npm]: https://www.npmjs.com/
