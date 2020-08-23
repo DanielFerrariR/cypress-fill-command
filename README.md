@@ -24,7 +24,7 @@ npm install --save-dev cypress-fill-command
 
 ## Usage
 
-`cypress-file-upload` extends Cypress' `cy` command.
+`cypress-fill-command` extends Cypress' `cy` command.
 Add this line to your project's `cypress/support/commands.js`:
 
 ```javascript
