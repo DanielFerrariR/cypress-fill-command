@@ -1,15 +1,22 @@
 {
   "name": "cypress-fill-command",
   "version": "0.0.2",
-  "main": "dist/index.js",
-  "types": "typings/index.d.ts",
-  "license": "MIT",
+  "description": "A Cypress command for fill inputs",
+  "homepage": "https://github.com/DanielFerrariR/cypress-fill-command",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielFerrariR/cypress-fill-command.git"
+  },
   "keywords": [
     "cypress",
     "command",
+    "type",
     "e2e",
     "test"
   ],
+  "main": "dist/index.js",
+  "types": "typings/index.d.ts",
+  "license": "MIT",
   "scripts": {
     "commit": "git add . && git-cz",
     "lint": "eslint --ext .js,.ts,.md .",
