@@ -38,8 +38,6 @@ Now you are ready to use the command. Here is a basic example:
 cy.get('#the-element-id').fill(/Button Name/)
 ```
 
-**Trying to upload a file that does not supported by Cypress by default?** Make sure you pass `encoding` property (see [API](#api)).
-
 ## API
 
 Exposed command in a nutshell:
