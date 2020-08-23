@@ -2,9 +2,9 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/danielferrarir/cypress-fill-command/blob/master/LICENSE) [![Travis Status](https://api.travis-ci.com/DanielFerrariR/cypress-fill-command.svg?branch=master)](https://travis-ci.com/github/DanielFerrariR/cypress-fill-command) [![npm version](https://img.shields.io/npm/v/cypress-fill-command.svg?style=flat&color=important)](https://www.npmjs.com/package/cypress-fill-command) [![All Contributors](https://img.shields.io/badge/all_contributors-0-yellow.svg)](#contributors)
 
-A fill command that does the same as the native type command, but faster.
+A fill command that fills inputs faster than the cypress native type command.
 
-This package adds a custom [Cypress][cypress] command that can completely replace the native type command from cypress. The type command from cypress has 10ms delay, so it slows the tests a bit. This command doesn't have any delay at all.
+This package adds a custom [Cypress][cypress] command that fills inputs and textareas. The type command from cypress has 10ms delay, so it slows the tests a bit. This command doesn't have any delay at all.
 
 ## Table of Contents
 
@@ -12,6 +12,7 @@ This package adds a custom [Cypress][cypress] command that can completely replac
 - [Usage](#usage)
 - [API](#api)
 - [Contributors](#contributors)
+- [It isn't working](#it-isnt-working)
 - [License](#license)
 
 ## Installation
@@ -48,6 +49,12 @@ cySubject.fill(text)
 ```
 
 - {String} `text` – The text to be filled into an input
+
+## It isn't working!
+
+It has been used on a React project with inputs controlled by React state.
+
+I cannot guarantee it will work in any custom input, but we can try to improve it, just open a issue.
 
 ## Contributors
 
