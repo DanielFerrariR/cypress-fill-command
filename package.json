@@ -1,6 +1,9 @@
 {
   "name": "cypress-fill-command",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cypress": "^1.1.3"
+  }
 }
