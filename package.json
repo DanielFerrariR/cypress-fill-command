@@ -13,7 +13,8 @@
     "tsc": "tsc",
     "check-types": "yarn tsc",
     "validate": "npm-run-all --parallel check-types check-format lint",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "tsc"
   },
   "config": {
     "commitizen": {
