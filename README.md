@@ -52,7 +52,7 @@ cySubject.fill(text)
 
 It has been used on a React project with inputs controlled by React state.
 
-I cannot guarantee it will work in any custom input, but we can try to improve it, just open a issue.
+I cannot guarantee it will work in any custom input, but we can try to improve it, just open an issue or a PR.
 
 ## Contributors
 
