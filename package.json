@@ -4,6 +4,12 @@
   "main": "dist/index.js",
   "types": "typings/index.d.ts",
   "license": "MIT",
+  "keywords": [
+    "cypress",
+    "command",
+    "e2e",
+    "test"
+  ],
   "scripts": {
     "commit": "git add . && git-cz",
     "lint": "eslint --ext .js,.ts,.md .",
