@@ -1,5 +1,7 @@
 .github
+cypress
 src
+webapp
 .eslintignore
 .eslintrc
 .gitignore
@@ -8,6 +10,7 @@ src
 .remarkrc.js
 .travis.yml
 CONTRIBUTING.md
+cypress.json
 husky.config.js
 lint-staged.config.js
 tsconfig.json
