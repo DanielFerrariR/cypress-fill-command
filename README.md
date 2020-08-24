@@ -41,7 +41,7 @@ import 'cypress-fill-command'
 Now you are ready to use the command. Here is a basic example:
 
 ```javascript
-cy.get('#the-element-id').fill(/Button Name/)
+cy.get('#the-element-id').fill('Some text')
 ```
 
 ## API
