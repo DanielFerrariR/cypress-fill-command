@@ -2,3 +2,5 @@ node_modules
 yarn-error.log
 dist
 yarn.lock
+spec/cypress/videos
+spec/cypress/screenshots
