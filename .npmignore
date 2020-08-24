@@ -7,9 +7,7 @@ src
 .prettierrc
 .remarkrc.js
 .travis.yml
-CHANGELOG.md
 CONTRIBUTING.md
 husky.config.js
-LICENSE
 lint-staged.config.js
 tsconfig.json

@@ -23,6 +23,12 @@ The package is distributed via [npm][npm] and should be installed as one of your
 npm install --save-dev cypress-fill-command
 ```
 
+or
+
+```bash
+yarn add cypress-fill-command --dev
+```
+
 ## Usage
 
 `cypress-fill-command` extends Cypress' `cy` command.
