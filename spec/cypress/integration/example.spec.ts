@@ -1,9 +1,17 @@
 describe('testing example page', () => {
-  it('should fill the input', () => {
+  beforeEach(() => {
     cy.visit('/')
+  })
 
-    cy.get('#test-input').fill('Some text')
+  it('should fill a simple input', () => {
+    cy.get('#simple-input').fill('Some text')
 
-    cy.get('#test-input').should('have.value', 'Some text')
+    cy.get('#simple-input').should('have.value', 'Some text')
+  })
+
+  it('should fill a simple text area', () => {
+    cy.get('#simple-text-area').fill('Some text')
+
+    cy.get('#simple-text-area').should('have.value', 'Some text')
   })
 })
