@@ -25,5 +25,16 @@ Cypress.Commands.add(
     const inputEvent = new Event('input', { bubbles: true })
 
     element.dispatchEvent(inputEvent)
+
+    Cypress.log({
+      name: 'fill',
+      message: value,
+      $el: subject,
+      consoleProps: () => {
+        return {
+          value
+        }
+      }
+    })
   }
 )
