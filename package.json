@@ -1,6 +1,6 @@
 {
   "name": "cypress-fill-command",
-  "version": "0.0.15",
+  "version": "0.1.0",
   "description": "A Cypress command for fill inputs",
   "homepage": "https://github.com/DanielFerrariR/cypress-fill-command",
   "repository": {
