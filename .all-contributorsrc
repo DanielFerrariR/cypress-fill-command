@@ -15,6 +15,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "amuta",
+      "name": "André Muta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7306481?v=4",
+      "profile": "https://github.com/amuta",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
