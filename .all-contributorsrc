@@ -24,6 +24,28 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "amuta",
+      "name": "André Muta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7306481?v=4",
+      "profile": "https://github.com/amuta",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "DanielFerrariR",
+      "name": "Daniel Ferrari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18249831?v=4",
+      "profile": "https://www.linkedin.com/in/danielferrarirey/",
+      "contributions": [
+        "infra",
+        "doc",
+        "test",
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
