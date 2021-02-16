@@ -9,4 +9,5 @@ node_js: '12'
 install: yarn install
 script: yarn run validate
 branches:
-  only: master
+  only:
+    - master
