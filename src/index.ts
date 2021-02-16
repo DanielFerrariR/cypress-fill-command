@@ -3,7 +3,7 @@ Cypress.Commands.add(
   {
     prevSubject: 'element'
   },
-  (subject, value) => {
+  (subject, value, options = { overwrite: false }) => {
     const element = subject[0]
 
     const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
@@ -16,15 +16,38 @@ Cypress.Commands.add(
       'value'
     )?.set
 
-    if (element.tagName.toLowerCase() === 'input') {
-      nativeInputValueSetter?.call(element, value)
-    } else {
-      nativeTextAreaValueSetter?.call(element, value)
-    }
-
     const inputEvent = new Event('input', { bubbles: true })
 
-    element.dispatchEvent(inputEvent)
+    if (element.tagName.toLowerCase() === 'input') {
+      nativeInputValueSetter?.call(element, value)
+      element.dispatchEvent(inputEvent)
+    } else if (element.tagName.toLowerCase() === 'textarea') {
+      nativeTextAreaValueSetter?.call(element, value)
+      element.dispatchEvent(inputEvent)
+    } else if (element.isContentEditable) {
+      element.focus()
+      cy.document().then((doc) => {
+        const selection = doc.getSelection()
+        selection?.removeAllRanges()
+
+        const range = doc.createRange()
+        range.selectNodeContents(element)
+
+        selection?.addRange(range)
+        if (options.overwrite === true) {
+          range.deleteContents()
+        } else {
+          selection?.collapseToEnd()
+        }
+
+        doc.execCommand(
+          'insertText',
+          false,
+          `${options.overwrite !== true ? ' ' : ''}${value}`
+        )
+        element.dispatchEvent(inputEvent)
+      })
+    }
 
     Cypress.log({
       name: 'fill',
@@ -32,7 +55,8 @@ Cypress.Commands.add(
       $el: subject,
       consoleProps: () => {
         return {
-          value
+          value,
+          options
         }
       }
     })
