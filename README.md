@@ -1,9 +1,7 @@
 # cypress-fill-command
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/danielferrarir/cypress-fill-command/blob/master/LICENSE) [![Travis Status](https://api.travis-ci.com/DanielFerrariR/cypress-fill-command.svg?branch=master)](https://travis-ci.com/github/DanielFerrariR/cypress-fill-command) [![npm version](https://img.shields.io/npm/v/cypress-fill-command.svg?style=flat&color=important)](https://www.npmjs.com/package/cypress-fill-command) [![All Contributors](https://img.shields.io/badge/all_contributors-0-yellow.svg)](#contributors)
@@ -81,6 +79,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 <table>
   <tr>
     <td align="center"><a href="https://github.com/stevedorries"><img src="https://avatars.githubusercontent.com/u/3475101?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steven Dorries</b></sub></a><br /><a href="#ideas-stevedorries" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=stevedorries" title="Tests">⚠️</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=stevedorries" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ncjones"><img src="https://avatars.githubusercontent.com/u/1155592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nathan Jones</b></sub></a><br /><a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=ncjones" title="Code">💻</a></td>
   </tr>
 </table>
 
