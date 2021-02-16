@@ -10,7 +10,7 @@
 
 A fill command that fills inputs faster than the cypress native type command.
 
-This package adds a custom [Cypress][cypress] command that fills inputs and textareas. The type command from cypress has 10ms delay, so it slows the tests a bit. This command doesn't have any delay at all.
+This package adds a custom [Cypress][cypress] command that fills inputs, textareas and content editable elements. The type command from cypress has 10ms delay, so it slows the tests a bit. This command doesn't have any delay at all.
 
 ## Table of Contents
 
