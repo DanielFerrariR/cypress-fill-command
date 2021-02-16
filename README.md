@@ -63,7 +63,7 @@ cySubject.fill(text, options)
 Options contains following properties:
 
 - {boolean} `overwrite` - To overwrite the input value. Defaults to `true`
-- {boolean} `prepend` - To insert before or after the current input value when `overwrite` is `false`
+- {boolean} `prepend` - To insert before (`true`) or after (`false`) the current input value when `overwrite` is `false`. Defaults to `false`
 
 ## It isn't working!
 
