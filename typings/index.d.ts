@@ -1,4 +1,8 @@
 declare namespace Cypress {
+  interface FillOptions {
+    overwrite?: boolean
+    prepend?: boolean
+  }
   interface Chainable {
     /**
      * Fills an input, textarea, or contenteditable element.
@@ -7,6 +11,6 @@ declare namespace Cypress {
      * @example
      *    cy.get('#the-element-id').fill('Some text')
      */
-    fill(value: string, options: { overwrite?: boolean }): Chainable<void>
+    fill(value: string, options?: FillOptions): Chainable<void>
   }
 }
