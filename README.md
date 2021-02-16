@@ -1,6 +1,9 @@
 # cypress-fill-command
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/danielferrarir/cypress-fill-command/blob/master/LICENSE) [![Travis Status](https://api.travis-ci.com/DanielFerrariR/cypress-fill-command.svg?branch=master)](https://travis-ci.com/github/DanielFerrariR/cypress-fill-command) [![npm version](https://img.shields.io/npm/v/cypress-fill-command.svg?style=flat&color=important)](https://www.npmjs.com/package/cypress-fill-command) [![All Contributors](https://img.shields.io/badge/all_contributors-0-yellow.svg)](#contributors)
@@ -52,10 +55,15 @@ cy.get('#the-element-id').fill('Some text')
 Exposed command in a nutshell:
 
 ```javascript
-cySubject.fill(text)
+cySubject.fill(text, options)
 ```
 
 - {String} `text` – The text to be filled into an input
+
+Options contains following properties:
+
+- {boolean} `overwrite` - To overwrite the input value. Defaults to `true`
+- {boolean} `prepend` - To insert before or after the current input value when `overwrite` is `false`
 
 ## It isn't working!
 
@@ -66,6 +74,7 @@ I cannot guarantee it will work in any custom input, but we can try to improve i
 ## Contributors
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
