@@ -15,6 +15,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "ncjones",
+      "name": "Nathan Jones",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1155592?v=4",
+      "profile": "https://github.com/ncjones",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
