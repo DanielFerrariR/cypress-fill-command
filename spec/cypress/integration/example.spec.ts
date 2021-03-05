@@ -76,4 +76,10 @@ describe('testing example page', () => {
       'Some other textContent Editable'
     )
   })
+
+  it('should be chainable to future child commands', () => {
+    cy.get('#simple-text-area').fill('Some text').clear()
+
+    cy.get('#simple-text-area').should('have.value', '')
+  })
 })

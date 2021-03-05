@@ -74,5 +74,7 @@ Cypress.Commands.add(
         }
       }
     })
+
+    cy.wrap(element)
   }
 )
