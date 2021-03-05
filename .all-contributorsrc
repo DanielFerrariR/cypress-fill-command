@@ -46,6 +46,17 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "Fishbowler",
+      "name": "Dan Caseley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2117083?v=4",
+      "profile": "https://github.com/Fishbowler",
+      "contributions": [
+        "ideas",
+        "test",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
