@@ -1,9 +1,7 @@
 # cypress-fill-command
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/danielferrarir/cypress-fill-command/blob/master/LICENSE) [![Travis Status](https://api.travis-ci.com/DanielFerrariR/cypress-fill-command.svg?branch=master)](https://travis-ci.com/github/DanielFerrariR/cypress-fill-command) [![npm version](https://img.shields.io/npm/v/cypress-fill-command.svg?style=flat&color=important)](https://www.npmjs.com/package/cypress-fill-command)
@@ -80,10 +78,11 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/danielferrarirey/"><img src="https://avatars.githubusercontent.com/u/18249831?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Ferrari</b></sub></a><br /><a href="#infra-DanielFerrariR" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=DanielFerrariR" title="Documentation">📖</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=DanielFerrariR" title="Tests">⚠️</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=DanielFerrariR" title="Code">💻</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/pulls?q=is%3Apr+reviewed-by%3ADanielFerrariR" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/stevedorries"><img src="https://avatars.githubusercontent.com/u/3475101?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steven Dorries</b></sub></a><br /><a href="#ideas-stevedorries" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=stevedorries" title="Tests">⚠️</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=stevedorries" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ncjones"><img src="https://avatars.githubusercontent.com/u/1155592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nathan Jones</b></sub></a><br /><a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=ncjones" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/amuta"><img src="https://avatars.githubusercontent.com/u/7306481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>André Muta</b></sub></a><br /><a href="#ideas-amuta" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/danielferrarirey/"><img src="https://avatars.githubusercontent.com/u/18249831?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Ferrari</b></sub></a><br /><a href="#infra-DanielFerrariR" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=DanielFerrariR" title="Documentation">📖</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=DanielFerrariR" title="Tests">⚠️</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=DanielFerrariR" title="Code">💻</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/pulls?q=is%3Apr+reviewed-by%3ADanielFerrariR" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/Fishbowler"><img src="https://avatars.githubusercontent.com/u/2117083?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dan Caseley</b></sub></a><br /><a href="#ideas-Fishbowler" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=Fishbowler" title="Tests">⚠️</a> <a href="https://github.com/DanielFerrariR/cypress-fill-command/commits?author=Fishbowler" title="Code">💻</a></td>
   </tr>
 </table>
 
