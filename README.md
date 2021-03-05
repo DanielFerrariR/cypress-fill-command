@@ -1,7 +1,9 @@
 # cypress-fill-command
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/danielferrarir/cypress-fill-command/blob/master/LICENSE) [![Travis Status](https://api.travis-ci.com/DanielFerrariR/cypress-fill-command.svg?branch=master)](https://travis-ci.com/github/DanielFerrariR/cypress-fill-command) [![npm version](https://img.shields.io/npm/v/cypress-fill-command.svg?style=flat&color=important)](https://www.npmjs.com/package/cypress-fill-command)
